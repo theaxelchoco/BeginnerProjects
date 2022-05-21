@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>To-do List</title>
-        <script src = "functions.js"></script>>
+        <script src = "functions.js"></script>
+        <link rel = "stylesheet", href = "style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script>
 
@@ -10,12 +11,23 @@
     </head>
 
     <body>
-        <h1>To Do List</h1>
-        <form name = "TodoForm", onsubmit = "return CheckForm()", method ="post">
-            <input type = "text", id = "TaskInput">
-            <input type = "submit", id = "TaskSubmit", valure = "Add", onclick = "CheckForm()">
-            <input type = "submit", id = "TaskCleared", value = "Clear List">
-            
-        </form>
+        <div id = "Frame">
+            <h1>To Do List</h1>
+
+            <form>
+                <input type = "text", id = "TaskInput">
+                <input type = "button", id = "TaskSubmit", value = "Add", onclick = "AddTask()">
+                <input type = "button", id = "TaskCleared", value = "Clear" onclick = "ClearList()">
+                
+            </form>
+
+            <div id = "Tasks">
+
+            </div>
+
+            <div id = "FinishedTasks">
+
+            </div>
+        </div>
     </body>
 </html>
