@@ -16,9 +16,11 @@ let AddTask = () => {
         Task.value = TaskInput.value
 
         Label.for = "RandomTask"
+        Label.id = "TaskLabel"
         Label.innerHTML = TaskInput.value
 
         Delete.innerHTML = "X"
+        Delete.id = "TaskDelete"
         Delete.onclick = () => {
             console.log("Delete the task")
             Div.remove()
@@ -33,7 +35,7 @@ let AddTask = () => {
 
         Task.addEventListener('change', () => {
             if (Task.checked) {
-                Label.innerHTML = Task.value + "[DONE]"
+                Label.innerHTML = "<s>" + Task.value + "</s>"  //Task.value + "[DONE]"
                 FinishedTasks.appendChild(Div)
             } else {
                 Label.innerHTML = Task.value 
