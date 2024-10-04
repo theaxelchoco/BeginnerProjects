@@ -1,0 +1,100 @@
+{
+    "math":{
+        "What is the square root of 16?":[4,2,3,8,4],
+        "What is 9x12?":[98,108,112,132,108],
+        "What is the formula for slope?":[
+            "y=mx+b",
+            "y=mx*b",
+            "x=(x*b)/y",
+            "y=mx^2*b",
+            "y=mx+b"
+        ],
+        "What is the square root of 144":[14,11,12,8,12],
+        "Which of the following is an Integer":[-4,4.2,"1/4","sqrt(2)",-4]
+    },
+
+    "science":{
+        "What is the powerhouse of the cell?":[
+            "Mitochondria",
+            "Nucleus",
+            "Cytoplasm",
+            "Membrane",
+            "Mitochondria"
+        ],
+        "What is the compound element for salt?":[
+            "S",
+            "NaCl",
+            "NH4F",
+            "Sa",
+            "NaCl"
+        ],
+        "What type of animal is a Frog?":[
+            "Mammal",
+            "Nocturnal",
+            "Carnivore",
+            "Amphibian",
+            "Amphibian"
+        ],
+        "What is the biggest bone in the human body?":[
+            "Sternum",
+            "Ribs",
+            "Tibia",
+            "Femur",
+            "Femur"
+        ],
+        "What is the largest organ in the body?":[
+            "Lung",
+            "Pancreas",
+            "Large Intestines",
+            "Liver",
+            "Liver"
+        ],
+        "What planet has the strongest gravity?":[
+            "Saturn",
+            "Neptune",
+            "Jupiter",
+            "Venus",
+            "Jupiter"
+        ]
+        
+    },
+
+    "history":{
+        "What year did the 2nd world war start?":[1910,1924,1939,1932,1939],
+        "Who was the first french speaking prime minister?":[
+            "Wilfred Laurier",
+            "Sir John A MacDonald",
+            "Stephen Harper",
+            "Justin Trudeau",
+            "Wilfred Laurier"
+        ],
+        "When was the maple leaf used as a symbol of the nation?":[
+            1912,
+            1885,
+            1868,
+            1850,
+            1868
+        ],
+        "What year was Canada founded?":[
+            1997,
+            1867,
+            1886,
+            1920,
+            1867
+        ],
+        "What drove people to Yukon in the 1890s?":[
+            "Trade and Commerce",
+            "Fishing and Hunting",
+            "Manufacturing",
+            "The Gold Rush",
+            "The Gold Rush"
+        ],
+        "Which prime minister won the noble peace prize?":[
+            "Lester B. Pearson",
+            "Sir John A MacDonald",
+            "Jean Chretien",
+            "Pierre Trudeau",
+            "Lester B. Pearson"
+        ]
+    }
+}

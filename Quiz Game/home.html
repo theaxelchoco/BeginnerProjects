@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quizler</title>
+         <script src = "functions.js"></script>
+         <script src="bundle.js"></script>
+        <link rel = "stylesheet", href = "styles.css">
+        <h1>Quizler</h1>
+    </head>
+
+    <body>
+       <h2 id = "Question">What is the question?</h2>
+       <h3 id = "correct">Correct: 0</h3>
+       <h3 id = "incorrect">Incorrect: 0</h3>
+      
+       <form>
+        <input type = "button" onclick = "picked(this)" id = "option-button1" value = "Option 1" >
+        <input type = "button" onclick = "picked(this)" id = "option-button2" value = "Option 2" >
+        <input type = "button" onclick = "picked(this)" id = "option-button3" value = "Option 3" >
+        <input type = "button" onclick = "picked(this)" id = "option-button4" value = "Option 4" >
+        <input type = "button" onclick = "skipQuestion()" id = "skip-button" value = "skip" >
+       </form>
+      
+    </body>
+</html>

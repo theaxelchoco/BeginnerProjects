@@ -1,0 +1,26 @@
+h1, h2, h3 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#option-button1 {
+   grid-area: "choice1";
+}
+
+#option-button2 {
+   
+}
+
+#skip-button {
+   grid-area: "skip";
+}
+
+form{
+   display: grid;
+   grid-template-rows: repeat(3,75px);
+   grid-template-columns: repeat(2,150px);
+   grid-gap: 10%;
+}
