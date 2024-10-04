@@ -5,7 +5,7 @@ function Increase(){
     UpdateVisual()
 }
 
-function Reset(){
+function ClearCount(){
     Count = 0
     UpdateVisual()
 }
